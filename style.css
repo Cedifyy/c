@@ -1,0 +1,120 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: 	#66545e;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+.nav1 {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.nav1.active {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.nav1:hover:not(.active) {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.navL{
+  width: 130px;
+  height: 130px;
+}
+.Title {
+  width: 1360px;
+  height: 750px;
+  background-image: linear-gradient(rgb(238, 169, 144), rgba(238, 169, 144, 0.519), rgba(238, 169, 144, 0.163), rgba(238, 169, 144, 0)), url(https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-color: rgba(238, 169, 144, 0.7);
+  position: static;
+}
+body {
+  color: 	#66545e;
+  background-color: rgba(238, 169, 144, 0.7);
+  margin: 0;
+  border-width: 1000px;
+}
+.header {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 200px;
+  padding-left: 100px;
+  text-shadow: 2px 5px black;
+}
+.c {
+  width: 500px;
+  height: 300px;
+  border-radius: 75px 75px;
+  background: #aa6f73;
+  padding: 16px;
+  text-align: center;
+}
+.cA {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 150px;
+  color: 	#f6e0b5;
+  text-shadow: 2px 5px rgb(145, 136, 136);
+  padding-bottom: 0%;  
+  text-align: center;
+  position: relative;
+}
+.cB {
+  padding-right: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+.col1 {
+  text-align: justify;
+  width: 1000px;
+  padding-left: 400px;
+}
+.r1::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+.num1 {
+  background-image: url("Japan.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  background-position: 150px 90px;
+
+}
+.num2 {
+  background-image: url("Japan 2.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  background-position: 150px 100px;
+
+}
+.num3 {
+  background-image: url("USA.png");
+  background-repeat: no-repeat;
+  background-size: 450px 450px;
+  background-position: 100px 100px;
+}
+.num4 {
+  background-image: url("Greece.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  background-position: 150px 140px;
+}
+.num5 {
+  background-image: url("France.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  background-position: 200px 140px;
+}
